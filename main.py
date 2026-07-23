@@ -1,3 +1,7 @@
-print("Hello from Python and Jenkins!")
-print("Jenkins successfully pulled my updated Python code!")
-print("This build was triggered automatically!")
+def add(a, b):
+    return a + b
+
+
+if __name__ == "__main__":
+    print("Hello from Python and Jenkins!")
+    print(add(2, 3))
