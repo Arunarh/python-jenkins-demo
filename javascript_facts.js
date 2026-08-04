@@ -1,4 +1,7 @@
-let day = "wednesday";
-let position =3;
-let output = "Today is " + day + ". it is the " + position + "rd day of the week.";
-console.log(output)
+let number = 8;
+
+if (number % 2 === 0) {
+    console.log(number + " is even");
+} else {
+    console.log(number + " is odd");
+}
