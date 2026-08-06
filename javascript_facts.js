@@ -5,5 +5,5 @@ let friends = [
     "Sarah",
     "James"
 ];
-
-console.log(friends);
+let bestFriend = friends[2];
+console.log(bestFriend);
