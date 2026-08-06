@@ -1,6 +1,9 @@
- function calculateAreaOfRectangle(length, width) {
-    return length * width;
-}
+let friends = [
+    "Aruna",
+    "Mary",
+    "David",
+    "Sarah",
+    "James"
+];
 
-let area = calculateAreaOfRectangle(10, 5);
-console.log(area);
+console.log(friends);
