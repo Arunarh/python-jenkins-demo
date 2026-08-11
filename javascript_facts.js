@@ -1,9 +1,9 @@
-let friends = [
-    "Aruna",
-    "Mary",
-    "David",
-    "Sarah",
-    "James"
-];
-let bestFriend = friends[2];
-console.log(bestFriend);
+let books = {
+    title: "Things Fall Apart",
+    description: "A story about tradition, change, and the impact of colonialism.",
+    numberOfPages: 209,
+    author: "Chinua Achebe",
+    reading: true
+};
+
+console.log(books);
