@@ -3,7 +3,12 @@ let books = {
     description: "A story about tradition, change, and the impact of colonialism.",
     numberOfPages: 209,
     author: "Chinua Achebe",
-    reading: true
+    reading: true,
+
+    toggleReadingStatus: function() {
+        this.reading = !this.reading;
+        console.log(this.reading);
+    }
 };
 
-console.log(books);
+books.toggleReadingStatus();
